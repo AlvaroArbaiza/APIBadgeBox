@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <ScrollView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/titleGallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/nameGallery"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:ems="10"
+                android:hint="name"
+                android:inputType="text"
+                android:paddingHorizontal="5dp" />
+
+            <EditText
+                android:id="@+id/phoneGallery"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="number"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/emailGallery"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="email"
+                android:inputType="text"
+                android:paddingHorizontal="5dp" />
+
+            <EditText
+                android:id="@+id/addressGallery"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="address"
+                android:inputType="text"
+                android:paddingHorizontal="5dp" />
+
+            <EditText
+                android:id="@+id/numberGallery"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="number"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/zipcodeGallery"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="zipcode"
+                android:inputType="text"
+                android:paddingHorizontal="5dp" />
+
+            <EditText
+                android:id="@+id/faxGallery"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="fax"
+                android:inputType="text"
+                android:paddingHorizontal="5dp" />
+
+            <EditText
+                android:id="@+id/cityGallery"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="city"
+                android:inputType="text"
+                android:paddingHorizontal="5dp" />
+
+            <EditText
+                android:id="@+id/countryGallery"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="country"
+                android:inputType="text"
+                android:paddingHorizontal="5dp" />
+
+            <EditText
+                android:id="@+id/pecGallery"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="pec"
+                android:inputType="text"
+                android:paddingHorizontal="5dp" />
+
+            <EditText
+                android:id="@+id/sdiGallery"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="sdi"
+                android:inputType="text"
+                android:paddingHorizontal="5dp" />
+
+            <EditText
+                android:id="@+id/cfGallery"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="cf"
+                android:inputType="text"
+                android:paddingHorizontal="5dp" />
+
+            <EditText
+                android:id="@+id/noteGallery"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="note"
+                android:inputType="textMultiLine"
+                android:paddingHorizontal="5dp" />
+
+            <Button
+                android:id="@+id/buttonGallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Button" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
